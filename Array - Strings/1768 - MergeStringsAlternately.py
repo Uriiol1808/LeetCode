@@ -1,4 +1,6 @@
 """
+1768. Merge Strings Alternately.
+
 You are given two strings word1 and word2. Merge the strings by adding letters
 in alternating order, starting with word1. 
 
@@ -32,25 +34,19 @@ class Solution(object):
 s = Solution()
 
 # Case 1
-word1 = "abc"
-word2 = "pqr"
-result1 = s.mergeAlternately(word1, word2)
+result1 = s.mergeAlternately(word1='abc', word2='pqr')
 expected1 = "apbqcr"
 print(f"Result: {result1}, Expected: {expected1}")
 assert result1 == expected1
 
 # Case 2
-word1 = "ab"
-word2 = "pqrs"
-result2 = s.mergeAlternately(word1, word2)
+result2 = s.mergeAlternately(word1='ab', word2='pqrs')
 expected2 = "apbqrs"
 print(f"Result: {result2}, Expected: {expected2}")
 assert result2 == expected2
 
 # Case 3
-word1 = "abcd"
-word2 = "pq"
-result3 = s.mergeAlternately(word1, word2)
+result3 = s.mergeAlternately(word1='abcd', word2='pq')
 expected3 = "apbqcd"
 print(f"Result: {result3}, Expected: {expected3}")
 assert result3 == expected3
