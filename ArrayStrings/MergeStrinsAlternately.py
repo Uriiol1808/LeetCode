@@ -21,7 +21,7 @@ class Solution(object):
         else:
             remain = word2[len(word1):]
             for i, char2 in enumerate(word2[:len(word1)]):
-                output = output + char2 + word1[i]
+                output = output + word1[i] + char2
             output = output + remain
 
         return output
@@ -31,9 +31,23 @@ s = Solution()
 # Case 1
 word1 = "abc"
 word2 = "pqr"
-s.mergeAlternately(word1, word2)
+result1 = s.mergeAlternately(word1, word2)
+expected1 = "apbqcr"
+print(f"Result: {result1}, Expected: {expected1}")
+assert result1 == expected1
 
 # Case 2
 word1 = "ab"
 word2 = "pqrs"
-s.mergeAlternately(word1, word2)
+result2 = s.mergeAlternately(word1, word2)
+expected2 = "apbqrs"
+print(f"Result: {result2}, Expected: {expected2}")
+assert result2 == expected2
+
+# Case 3
+word1 = "abcd"
+word2 = "pq"
+result3 = s.mergeAlternately(word1, word2)
+expected3 = "apbqcd"
+print(f"Result: {result3}, Expected: {expected3}")
+assert result3 == expected3
