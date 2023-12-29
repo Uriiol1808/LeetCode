@@ -1,3 +1,3 @@
-# LeetCode-75
+# LeetCode
 
-Welcome to the LeetCode 75 Problems Practice Repository!
+Welcome to the LeetCode problems practice repository!
