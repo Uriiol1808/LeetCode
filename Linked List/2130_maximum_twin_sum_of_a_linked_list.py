@@ -28,23 +28,23 @@ class Solution(object):
         if not head or not head.next:
             return 0
         
-        twin_dict = {}
-        max_twin_sum = float()
-        current = head
-        n = 0+1
+        slow, fast = head, head
+        prev = None
 
-        while current:
-            twin_index = n - (n // 2) - 1
-            twin_val = twin_dict.get(twin_index, 0)
+        while fast and fast.next:
+            fast = fast.next.next
+            tmp = slow.next
+            slow.next = prev
+            prev = slow
+            slow = tmp
 
-            twin_sum = current.val + twin_val
-            max_twin_sum = max(max_twin_sum, twin_sum)
-
-            twin_dict[n] = current.val + twin_val
-            current = current.next
-            n += 1
-
-        return max_twin_sum
+        res = 0
+        while slow:
+            res = max(res, prev.val + slow.val)
+            prev = prev.next
+            slow = slow.next
+        
+        return res
                 
 s = Solution()
 
