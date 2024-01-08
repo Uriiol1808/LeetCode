@@ -31,7 +31,7 @@ class Solution(object):
         twin_dict = {}
         max_twin_sum = float()
         current = head
-        n = 0
+        n = 0+1
 
         while current:
             twin_index = n - (n // 2) - 1
