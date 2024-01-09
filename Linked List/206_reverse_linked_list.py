@@ -21,8 +21,10 @@ class Solution(object):
         current = head
 
         while current is not None:
+            # First we change the order
             next_node = current.next
             current.next = prev
+            # Then update
             prev = current
             current = next_node
 
