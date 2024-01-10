@@ -1,7 +1,7 @@
-LeetCode
+# LeetCode
 ========
 
-Welcome to the LeetCode problems practice repository!
+Welcome to my LeetCode problems practice repository!
 
 ## Array / String
 | # | Problem | Difficulty | Solution |
@@ -32,3 +32,21 @@ Welcome to the LeetCode problems practice repository!
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)|Medium|[Python](./Linked%20List/328_odd_even_linked_list.py)|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)|Easy|[Python](./Linked%20List/206_reverse_linked_list.py)|
 |2130|[Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list)|Medium|[Python](./Linked%20List/2130_maximum_twin_sum_of_a_linked_list.py)|
+
+## Binary Search Tree
+| # | Problem | Difficulty | Solution |
+|---| ------- | ---------- | ---------|
+|700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree)|Easy|[Python](./Binary%20Search%20Tree/700_search_in_binary_search_tree.py)|
+|872|[Leaf Similar Trees](https://leetcode.com/problems/leaf-similar-trees)|Easy|[Python](./Binary%20Search%20Tree/872_leaf_similar_trees.py)|
+|450|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst)|Medium|[Python](./Binary%20Search%20Tree/450_delete_node_in_a_bst.py)|
+
+## Graph - DFS
+| # | Problem | Difficulty | Solution |
+|---| ------- | ---------- | ---------|
+|841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms)|Medium|[Python](./Graphs%20-%20DFS/841_keys_and_rooms.py)|
+|547|[Number of Provinces](https://leetcode.com/problems/number-of-provinces)|Medium|[Python (Not finished)](./Graphs%20-%20DFS/841_keys_and_rooms.py)|
+
+## Binary Search
+| # | Problem | Difficulty | Solution |
+|---| ------- | ---------- | ---------|
+|374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower)|Medium|[Python](./Binary%20Search/374_guess_number_higher_or_lower.py)|
