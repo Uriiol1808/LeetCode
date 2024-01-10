@@ -28,7 +28,7 @@ Welcome to the LeetCode problems practice repository!
 ## Linked List
 | # | Problem | Difficulty | Solution |
 |---| ------- | ---------- | ---------|
-|2095|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list)|Easy|[Python](./Linked%20List/2095_delete_the_middle_node_of_a_linked_list.py)|
-|328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)|Easy|[Python](./Linked%20List/328_odd_even_linked_list.py)|
+|2095|[Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list)|Medium|[Python](./Linked%20List/2095_delete_the_middle_node_of_a_linked_list.py)|
+|328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)|Medium|[Python](./Linked%20List/328_odd_even_linked_list.py)|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)|Easy|[Python](./Linked%20List/206_reverse_linked_list.py)|
-|2130|[Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list)|Easy|[Python](./Linked%20List/2130_maximum_twin_sum_of_a_linked_list.py)|
+|2130|[Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list)|Medium|[Python](./Linked%20List/2130_maximum_twin_sum_of_a_linked_list.py)|
