@@ -1,5 +1,4 @@
 # LeetCode
-========
 
 Welcome to my LeetCode problems practice repository!
 
