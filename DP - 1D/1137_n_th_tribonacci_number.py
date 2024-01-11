@@ -20,18 +20,31 @@ class Solution(object):
             return 1
         else:
             return s.tribonacci(n - 1) + s.tribonacci(n - 2) + s.tribonacci(n - 3)
-        
+    
+    # Time complexity improvement
+    def tribonacci_improved(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        t0, t1, t2 = 0, 1, 1
+        if n == 0: return t0
+        if n == 1: return t1
+        for _ in range(n-2):
+            t0, t1, t2 = t1, t2, t0+t1+t2
+        return t2
+    
 
 s = Solution()
 
 # Case 1
-output = s.tribonacci(4)
+output = s.tribonacci_improved(4)
 expected = 4
 print(f"Result: {output}, Expected: {expected}")
 assert output == expected
 
 # Case 2
-output = s.tribonacci(25)
+output = s.tribonacci_improved(25)
 expected = 1389537
 print(f"Result: {output}, Expected: {expected}")
 assert output == expected
