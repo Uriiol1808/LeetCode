@@ -34,9 +34,8 @@ s = Solution()
 output = s.equalPairs(grid=[[3,2,1],[1,7,6],[2,7,7]])
 expected = 1
 print(f"Result: {output}, Expected: {expected}")
-# assert output == expected
+assert output == expected
 
-# {row1: 1, row2: 0, row3: 0} --> 1
 # Case 2
 
 # | 3 | 1 | 2 | 2 |
@@ -48,6 +47,4 @@ output = s.equalPairs(grid=[[3,1,2,2],[1,4,4,5],
                             [2,4,2,2],[2,4,2,2]])
 expected = 3
 print(f"Result: {output}, Expected: {expected}")
-# assert output == expected
-
-# {row1: 1, row2: 0, row3: 1, row4: 1} --> 1
+assert output == expected
