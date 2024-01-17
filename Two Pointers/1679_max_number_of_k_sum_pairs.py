@@ -41,13 +41,16 @@ s = Solution()
 output = s.maxOperations(nums=[1,2,3,4], k=5)
 expected = 2
 print(f"Results: {output}, Expected: {expected}")
+assert output == expected
 
 # Case 2
 output = s.maxOperations(nums=[3,1,3,4,3], k=6)
 expected = 1
 print(f"Results: {output}, Expected: {expected}")
+assert output == expected
 
 # Case 3
 output = s.maxOperations(nums=[4,4,1,3,1,3,2,2,5,5,1,5,2,1,2,3,5,4], k=2)
 expected = 2
 print(f"Results: {output}, Expected: {expected}")
+assert output == expected
