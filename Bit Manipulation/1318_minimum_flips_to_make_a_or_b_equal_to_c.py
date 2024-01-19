@@ -35,16 +35,16 @@ s = Solution()
 output = s.minFlips(a=2, b=6, c=5)
 expected = 3
 print(f"Result: {output}, Expected: {expected}")
-# assert output == expected
+assert output == expected
 
 # Case 2
 output = s.minFlips(a=4, b=2, c=7)
 expected = 1
 print(f"Result: {output}, Expected: {expected}")
-# assert output == expected
+assert output == expected
 
 # Case 3
 output = s.minFlips(a=1, b=2, c=3)
 expected = 0
 print(f"Result: {output}, Expected: {expected}")
-# assert output == expected
+assert output == expected
