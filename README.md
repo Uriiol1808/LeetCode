@@ -20,9 +20,9 @@ Welcome to my LeetCode problems practice repository!
 ## Hash Map / Set
 | # | Problem | Difficulty | Solution |
 |---| ------- | ---------- | ---------|
-|2215|[Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays)|Easy|[Python](./Hash%20Map%20%26%20Set/2215_find_the_difference_of_two_arrays.py)|
-|1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences)|Easy|[Python](./Hash%20Map%20%26%20Set/1207_unique_number_of_occurrences.py)|
-|1657|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close)|Mediun|[Python](./Hash%20Map%20%26%20Set/1567_determine_if_two_strings_are_close.py)|
+|2215|[Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays)|Easy|[Python](./HashMap&Set/2215_find_the_difference_of_two_arrays.py)|
+|1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences)|Easy|[Python](./HashMap&Set/1207_unique_number_of_occurrences.py), [C++](./HashMap&Set/1207_unique_number_of_occurrences.cpp)|
+|1657|[Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close)|Mediun|[Python](./HashMap&Set/1567_determine_if_two_strings_are_close.py)|
 
 ## Linked List
 | # | Problem | Difficulty | Solution |
