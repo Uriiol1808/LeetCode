@@ -45,4 +45,6 @@ int main()
     bool result3 = s.uniqueOccurrences(arr3);
     bool expected3 = true;
     std::cout << "Result: " << result3 << ", Expected: " << expected3 << std::endl;
+
+    return 0;
 }
