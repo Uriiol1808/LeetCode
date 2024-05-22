@@ -20,11 +20,13 @@ Welcome to my LeetCode problems practice repository!
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree)|Easy|[Python](./Binary%20Search%20Tree/700_search_in_binary_search_tree.py)|
 |872|[Leaf Similar Trees](https://leetcode.com/problems/leaf-similar-trees)|Easy|[Python](./Binary%20Search%20Tree/872_leaf_similar_trees.py)|
 |450|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst)|Medium|[Python](./Binary%20Search%20Tree/450_delete_node_in_a_bst.py)|
+|2385|[Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)|Medium|[Python](./Binary%20Search%20Tree/2385_amount_of_time_for_binary_tree_to_be_infected.py)|
 
 ## Binary Search
 | # | Problem | Difficulty | Solution |
 |---| ------- | ---------- | ---------|
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower)|Medium|[Python](./Binary%20Search/374_guess_number_higher_or_lower.py)|
+|2300|[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions)|Medium|[Python](./Binary%20Search/2300_successful_pairs_of_spells_and_potions.py)|
 
 ## Bit Manipulation
 | # | Problem | Difficulty | Solution |
